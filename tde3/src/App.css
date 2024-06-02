@@ -12,11 +12,23 @@ body {
 
 .TextoInicial {
   margin-top: 90px;
-  margin-left: 20px;
+  margin-left: 15%;
   padding-right: 100px;
   color: #13706c;
   font-family: Georgia, 'Times New Roman', Times, serif;
 
+}
+
+.Hotel {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.IconLogo {
+  margin-top: 18px;
+  height: 40px;
+  color: #0d4240;
 }
 
 .T1 {
@@ -47,7 +59,6 @@ body {
 }
 
 .Reservas {
-  margin-left: 20px;
   background-color: #ddf0ef;
   border-radius: 5px;
   border-color: #ddf0ef;
@@ -70,6 +81,7 @@ body {
 .Img1 {
   height: 400px;
   clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 20% 100%);
+  object-fit: cover;
 }
 
 .Meio {
@@ -131,4 +143,127 @@ body {
 .IconQuarto {
   margin-top: 20px;
   height: 25px;
+}
+
+.Fim {
+  width: 100%;
+  display: inline-block;
+  position: relative;
+}
+
+.ContainerImg2 {
+  width: 100%;
+  flex-direction: column;
+  display: flex;
+  position: absolute;
+  top: 100;
+}
+
+.Img2 {
+  height: 400px;
+  object-fit: cover;
+}
+
+.ContainerBonus {
+  display: flex;
+  flex-direction: row;
+  margin-left: 25%;
+  gap: 70px;
+  padding-left: 30px;
+}
+
+.H23 {
+  margin-top: 400px;
+  padding: 20px;
+  color: #13706c;
+  font-weight: lighter;
+  font-size: 35px;
+  text-align: center;
+}
+
+.Aula,
+.Guia,
+.Kids {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.IconProf,
+.IconSki,
+.IconKids {
+  height: 25px;
+}
+
+.T6,
+.T7,
+.T8 {
+  position: relative;
+  top: -20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.News {
+  background-color: #0d4240;
+  height: 180px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.Cadastro {
+  padding: 10%;
+  color: #8cb8b5;
+  margin-left: 25%;
+
+}
+
+.Formulario {
+  color: #8cb8b5;
+  border-radius: 5px;
+  margin-right: 15%;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+button[type="submit"] {
+  background-color: #ddf0ef;
+  color: #0d4240;
+  border: none;
+  margin-left: 10px;
+  padding: 3px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #13706c;
+  color: #8cb8b5;
+}
+
+.Footer {
+  height: 200px;
+  background-color: #8cb8b5;
+  margin-top: -20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.H44 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: x-large;
+  color: #13706c;
+}
+
+.T9 {
+  text-align: center;
+  margin-top: -20px;
+  color: grey;
 }
