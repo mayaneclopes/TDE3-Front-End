@@ -1,38 +1,134 @@
-.App {
-  text-align: center;
+body {
+  background-color: #ddf0ef;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Topo {
+  height: 400px;
+  width: 100%;
+  background-color: #8cb8b5;
+  display: inline-block;
+  position: relative;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.TextoInicial {
+  margin-top: 90px;
+  margin-left: 20px;
+  padding-right: 100px;
+  color: #13706c;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.T1 {
+  font-size: large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: lighter;
+  font-size: 1em;
+}
+
+.H31 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #0d4240;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.H11 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #0d4240;
+  font-size: 2em;
+  font-weight: lighter;
+}
+
+.H21 {
+  font-style: italic;
+  font-weight: lighter;
+  color: #ddf0ef;
+}
+
+.Reservas {
+  margin-left: 20px;
+  background-color: #ddf0ef;
+  border-radius: 5px;
+  border-color: #ddf0ef;
+  height: 30px;
+  width: 100px;
+  font-family: 'Times New Roman';
+  color: #13706c;
+  cursor: pointer;
+}
+
+.ContainerImg1 {
+  width: 50%;
+  margin-left: 50%;
+  flex-direction: column;
+  display: flex;
+  position: absolute;
+  top: 0;
+}
+
+.Img1 {
+  height: 400px;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 20% 100%);
+}
+
+.Meio {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-family: Georgia;
 }
 
-.App-link {
-  color: #61dafb;
+.H22 {
+  margin: 10px;
+  padding: 0;
+  color: #13706c;
+  font-weight: lighter;
+  font-size: 50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.H32 {
+  margin: 0;
+  padding: 0;
+  color: #13706c;
+  font-weight: lighter;
+  font-size: 35px;
+}
+
+.T2 {
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+  margin-bottom: 10px;
+  color: #8cb8b5;
+  size: 100px;
+  font-family: 'Franklin Gothic Medium';
+}
+
+.ContainerOpc {
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+  padding: 30px;
+}
+
+.T3,
+.T4,
+.T5 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Cafe,
+.Wifi,
+.Quartos {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.IconCafe,
+.IconWifi,
+.IconQuarto {
+  margin-top: 20px;
+  height: 25px;
 }
